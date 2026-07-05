@@ -1,0 +1,39 @@
+{
+  "name": "reasonix",
+  "version": "1.0.0",
+  "description": "Reasonix - DeepSeek terminal agent embedded in Obsidian sidebar",
+  "main": "main.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build:css": "node scripts/build-css.mjs",
+    "dev": "npm run build:css && node esbuild.config.mjs",
+    "build": "node scripts/build.mjs production",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "reasonix",
+    "deepseek",
+    "obsidian",
+    "obsidian-plugin",
+    "productivity"
+  ],
+  "author": "zack744",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zack744/reasonix.git"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "esbuild": "^0.28.0",
+    "obsidian": "latest",
+    "typescript": "^5.5.0"
+  },
+  "dependencies": {
+    "@codemirror/state": "^6.5.0",
+    "@codemirror/view": "^6.38.6",
+    "tslib": "^2.8.1"
+  }
+}

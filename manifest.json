@@ -1,0 +1,9 @@
+{
+  "id": "reasonix",
+  "name": "Reasonix",
+  "version": "1.0.0",
+  "minAppVersion": "1.7.2",
+  "description": "Embeds the local Reasonix CLI (DeepSeek terminal agent) as an AI collaborator in your vault. Your vault becomes its working directory.",
+  "author": "zack744",
+  "isDesktopOnly": true
+}
