@@ -1,3 +1,5 @@
+English | [简体中文](README.zh-CN.md)
+
 # Reasonix
 
 An Obsidian plugin that embeds the local [Reasonix CLI](https://github.com/nicepkg/reasonix) (DeepSeek terminal agent) as an AI collaborator in your vault. Your vault becomes its working directory — it can read notes, write files, and assist with knowledge management tasks directly from the sidebar.
